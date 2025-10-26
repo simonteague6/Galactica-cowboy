@@ -1,0 +1,68 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="visorGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(0,0,150);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(0,200,255);stop-opacity:1" />
+    </linearGradient>
+
+    <linearGradient id="suitGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(150,150,150);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(200,200,200);stop-opacity:1" />
+    </linearGradient>
+
+    <linearGradient id="hatGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(100,50,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(200,100,0);stop-opacity:1" />
+    </linearGradient>
+
+    <linearGradient id="blasterGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(50,50,50);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(120,120,120);stop-opacity:1" />
+    </linearGradient>
+
+    <pattern id="stars" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
+        <circle cx="2" cy="2" r="0.5" fill="white" />
+        <circle cx="8" cy="6" r="0.3" fill="white" />
+        <circle cx="5" cy="9" r="0.7" fill="white" />
+    </pattern>
+
+  </defs>
+
+  <rect x="0" y="0" width="400" height="400" fill="url(#stars)" />
+  <rect x="0" y="0" width="400" height="400" fill="rgba(0,0,50,0.5)" />
+
+
+  <rect x="150" y="150" width="100" height="120" rx="15" ry="15" fill="url(#suitGradient)" stroke="#333" stroke-width="3"/>
+  <circle cx="200" cy="180" r="20" fill="#FFF" stroke="#333" stroke-width="2"/> <rect x="160" y="270" width="30" height="80" rx="10" ry="10" fill="url(#suitGradient)" stroke="#333" stroke-width="3"/>
+  <rect x="210" y="270" width="30" height="80" rx="10" ry="10" fill="url(#suitGradient)" stroke="#333" stroke-width="3"/>
+  
+  <rect x="155" y="340" width="40" height="20" rx="5" ry="5" fill="#333" stroke="#000" stroke-width="2"/>
+  <rect x="205" y="340" width="40" height="20" rx="5" ry="5" fill="#333" stroke="#000" stroke-width="2"/>
+
+
+  <rect x="120" y="170" width="30" height="80" rx="10" ry="10" fill="url(#suitGradient)" stroke="#333" stroke-width="3"/>
+  <rect x="250" y="170" width="30" height="80" rx="10" ry="10" fill="url(#suitGradient)" stroke="#333" stroke-width="3"/>
+  
+  <circle cx="135" cy="265" r="15" fill="#555" stroke="#333" stroke-width="2"/>
+  <circle cx="265" cy="265" r="15" fill="#555" stroke="#333" stroke-width="2"/>
+
+
+  <circle cx="200" cy="100" r="50" fill="url(#suitGradient)" stroke="#333" stroke-width="3"/>
+  
+  <ellipse cx="200" cy="105" rx="35" ry="25" fill="url(#visorGradient)" stroke="#000" stroke-width="2"/>
+  <path d="M170 100 Q200 85 230 100" fill="none" stroke="white" stroke-width="2" opacity="0.5"/> <ellipse cx="200" cy="65" rx="70" ry="20" fill="url(#hatGradient)" stroke="#502500" stroke-width="3"/>
+  <rect x="160" y="35" width="80" height="40" rx="10" ry="10" fill="url(#hatGradient)" stroke="#502500" stroke-width="3"/>
+  <ellipse cx="200" cy="35" rx="40" ry="10" fill="url(#hatGradient)" stroke="#502500" stroke-width="3"/>
+
+
+  <path d="M160 145 Q200 130 240 145 L200 160 Z" fill="#CC0000" stroke="#800000" stroke-width="2"/>
+  
+  <rect x="260" y="240" width="30" height="10" rx="3" ry="3" fill="url(#blasterGradient)" transform="rotate(15 260 240)" stroke="#000" stroke-width="1"/>
+  <circle cx="295" cy="235" r="5" fill="orange" stroke="red" stroke-width="1"/> <text x="200" y="30" font-family="Verdana" font-size="20" fill="white" text-anchor="middle" font-weight="bold">
+    Space Cowboy
+  </text>
+  <text x="200" y="375" font-family="Verdana" font-size="12" fill="#AAA" text-anchor="middle">
+    Giddy up, partner.
+  </text>
+
+</svg>

@@ -5,6 +5,7 @@ import SplitScreen from './components/Splitscreen'
 function App() {
   const [] = useState(0)
 
+const App = () => {
   return (
     <>
     <SplitScreen></SplitScreen>
