@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import './tailwind.css'
-import Grid from './components/Grid'
+import SplitScreen from './components/Splitscreen'
 
 function App() {
   const [] = useState(0)
 
   return (
     <>
-    <Grid></Grid>
+    <SplitScreen></SplitScreen>
     </>
   )
 }
