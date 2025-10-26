@@ -1,20 +1,13 @@
-//import './App.css'
-
-import {Guild} from "./model.ts"
-
+import { useState } from 'react'
+import './tailwind.css'
+import SplitScreen from './components/Splitscreen'
 
 function App() {
-  
-  const guild = new Guild();
-  
-  guild.update();
-  
-  setInterval(() => {guild.update()}, 10000);
-  
-  window.guild = guild;
+  const [] = useState(0)
 
   return (
     <>
+    <SplitScreen></SplitScreen>
     </>
   )
 }
