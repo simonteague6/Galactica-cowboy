@@ -1,13 +1,17 @@
 //import './App.css'
 
-
+import {Guild} from "./model.ts"
 
 
 function App() {
   
-  let guild = new Guild();
+  const guild = new Guild();
   
-  setInterval(guild.doDay, 3000);
+  guild.update();
+  
+  setInterval(() => {guild.update()}, 10000);
+  
+  window.guild = guild;
 
   return (
     <>
