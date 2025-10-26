@@ -1,4 +1,4 @@
-import { generateBountyAmount, generateCrime, generateCriminalName, getRandomFromArray } from "./nameGenerator";
+import { generateBountyAmount, generateCrime, generateCriminalName, generateSpaceCowboyName, getRandomFromArray } from "./nameGenerator";
 
 enum Rank {
   F,
@@ -18,6 +18,7 @@ enum HunterState {
 
 
 class BountyHunter {
+  name: string;
   rank: Rank;
   health: number;
   state: HunterState;
@@ -25,6 +26,7 @@ class BountyHunter {
   daysTilBountyFinished: number;
   
   constructor() {
+    this.name = generateSpaceCowboyName();
     this.rank = getRandomFromArray(Object.values(Rank));
     this.state = HunterState.Idle;
     this.health = 100;
