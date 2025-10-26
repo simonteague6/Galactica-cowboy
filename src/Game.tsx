@@ -1,10 +1,10 @@
-// src/App.tsx
+// src/Game.tsx
 
 import React, { useState, useMemo } from "react";
 import type { GearItem, NewGearItem } from "./types"; // Import types
 import { AddItemForm } from "./components/AddItemForm"; // Import components
 import { GearList } from "./components/GearList";
-import "./App.css";
+import "./tailwind.css";
 
 // 1. COMPLEX INITIAL STATE: Define a fully typed starting array
 const initialGear: GearItem[] = [
